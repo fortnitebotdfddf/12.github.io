@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Page</title>
-    <style>
-        body {
+<html>
+    <head>
+        <title>Google Drive - New document</title>
+        <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div style="width: 100vw;">
+        <a onclick="switchtourl('main')">
+            <div style="float: left; width: 10vw;">
+                <p class="bartext">Universal UB</p>
+            </div>
+        </a>
+        <div onclick="cloaksite('main')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+            <p class="bartext">Open in About:Blank</p>
+        </div>
             font-family: Arial, sans-serif;
             text-align: center;
         }
